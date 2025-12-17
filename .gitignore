@@ -1,0 +1,23 @@
+# Fichiers Python temporaires
+__pycache__/
+*.py[cod]
+
+# Environnements virtuels (si tu en as)
+venv/
+env/
+.env
+
+# Résultats générés (on ne veut pas stocker ça sur GitHub, on veut que l'utilisateur les génère)
+results/videos/*.mp4
+results/figures/*.png
+data/iot/*.csv
+data/iot/*.pkl
+
+# Exception : On garde le README s'il est dans results (optionnel)
+!results/.gitkeep
+
+# Fichiers système
+.DS_Store
+
+# IDE
+.vscode/
