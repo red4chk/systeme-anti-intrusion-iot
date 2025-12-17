@@ -1,13 +1,13 @@
 
 
-# 🛡️ Intelligent Anti-Intrusion System (IAIS)
+#  Intelligent Anti-Intrusion System (IAIS)
 
 > **University Project – Computer Vision & Artificial Intelligence**
 > 100% Software • No Hardware • Python • Vibe Coding Approach
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This project consists of the design and implementation of an **intelligent anti-intrusion system** entirely simulated using software, without any physical hardware (no cameras, no sensors).
 
@@ -22,9 +22,9 @@ The goal is to validate the **AI concepts used in real smart-home security syste
 
 ---
 
-## 🎯 Project Objectives
+##  Project Objectives
 
-### 🎯 General Objective
+###  General Objective
 
 Develop a system capable of:
 
@@ -33,7 +33,7 @@ Develop a system capable of:
 * Detecting anomalies
 * Generating software-based alerts
 
-### 🎯 Specific Objectives
+###  Specific Objectives
 
 * Simulate IoT sensors using CSV data
 * Apply ML algorithms for intrusion classification
@@ -58,7 +58,7 @@ Develop a system capable of:
 
 ---
 
-## 🧠 Functional Architecture
+##  Functional Architecture
 
 Simulated IoT Data ──► Machine Learning ──┐
 ├──► Decision System ──► Alert
@@ -66,7 +66,7 @@ Pre-recorded Video ──► Computer Vision ──┘
 
 ---
 
-## 🧠 PART A — IoT DATA (SIMULATION)
+##  PART A — IoT DATA (SIMULATION)
 
 ### A.1 IoT Data Generation
 
@@ -89,7 +89,7 @@ Create a CSV file simulating smart-home sensors.
 3. Save data to CSV
 4. Manually verify data integrity
 
-📌 **Deliverable:** `iot_data.csv`
+ **Deliverable:** `iot_data.csv`
 
 ---
 
@@ -102,7 +102,7 @@ Create a CSV file simulating smart-home sensors.
 * Normalize features
 * Split data into train / test sets
 
-📌 **Deliverable:** Clean dataset ready for ML
+ **Deliverable:** Clean dataset ready for ML
 
 ---
 
@@ -125,11 +125,11 @@ Create a CSV file simulating smart-home sensors.
   * Recall
   * Confusion Matrix
 
-📌 **Deliverable:** ML results + evaluation graphs
+ **Deliverable:** ML results + evaluation graphs
 
 ---
 
-## 🧠 PART B — ANOMALY DETECTION
+##  PART B — ANOMALY DETECTION
 
 ### B.1 Objective
 
@@ -146,7 +146,7 @@ Detect unusual behavior without relying on labels.
 * Compute anomaly scores
 * Visualize detected anomalies
 
-📌 **Deliverable:** Anomaly detection plots
+ **Deliverable:** Anomaly detection plots
 
 ---
 
@@ -171,7 +171,7 @@ Detect unusual behavior without relying on labels.
 * Detect persons in each frame
 * Draw bounding boxes
 
-📌 **Deliverable:** Annotated video
+ **Deliverable:** Annotated video
 
 ---
 
@@ -193,11 +193,11 @@ Detect unusual behavior without relying on labels.
 * Long presence duration
 * Entry into restricted zones
 
-📌 **Deliverable:** “Video Intrusion Detected” message
+ **Deliverable:** “Video Intrusion Detected” message
 
 ---
 
-## 🧠 PART D — DECISION FUSION
+##  PART D — DECISION FUSION
 
 ### D.1 Objective
 
@@ -207,11 +207,11 @@ Combine IoT and video decisions.
 if intrusion_iot or intrusion_video:
   alert = True
 
-📌 **Deliverable:** Final intrusion decision
+ **Deliverable:** Final intrusion decision
 
 ---
 
-## 📢 PART E — OUTPUTS
+##  PART E — OUTPUTS
 
 **System Outputs**
 
@@ -222,7 +222,7 @@ if intrusion_iot or intrusion_video:
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 anti_intrusion_project/
 ├── data/
@@ -258,7 +258,7 @@ anti_intrusion_project/
 
 ---
 
-## 📄 Description of Key Files
+##  Description of Key Files
 
 | File                 | Description                    |
 | -------------------- | ------------------------------ |
@@ -273,7 +273,7 @@ anti_intrusion_project/
 
 ---
 
-## 🧪 Development Methodology — Vibe Coding
+##  Development Methodology — Vibe Coding
 
 The system is built **module by module**:
 
@@ -286,13 +286,13 @@ The system is built **module by module**:
 
 ---
 
-## 🎓 Key Sentence for the Jury
+##  Key Sentence for the Jury
 
 “This project simulates a complete intelligent anti-intrusion system by independently validating each AI component, without any hardware dependency.”
 
 ---
 
-## 🚀 Next Steps
+##  Next Steps
 
 * Real-time video input
 * Real IoT sensors
