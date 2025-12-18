@@ -44,7 +44,7 @@ Develop a system capable of:
 
 ---
 
-## ⚙️ Project Constraints
+##  Project Constraints
 
 | Element     | Constraint         |
 | ----------- | ------------------ |
