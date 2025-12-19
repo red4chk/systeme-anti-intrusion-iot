@@ -150,7 +150,7 @@ Detect unusual behavior without relying on labels.
 
 ---
 
-## 👁️ PART C — COMPUTER VISION (VIDEO)
+##  PART C — COMPUTER VISION (VIDEO)
 
 ### C.1 Video Data
 
