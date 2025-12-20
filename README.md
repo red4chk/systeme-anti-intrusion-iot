@@ -277,10 +277,10 @@ anti_intrusion_project/
 
 The system is built **module by module**:
 
-1️⃣ IoT simulation → OK
-2️⃣ Machine Learning → OK
-3️⃣ Video processing → OK
-4️⃣ Decision fusion → OK
+1. IoT simulation → OK
+2. Machine Learning → OK
+3. Video processing → OK
+4. Decision fusion → OK
 
 ⚠️ Never develop everything at once.
 
