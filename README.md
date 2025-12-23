@@ -282,7 +282,7 @@ The system is built **module by module**:
 3. Video processing → OK
 4. Decision fusion → OK
 
-⚠️ Never develop everything at once.
+ Never develop everything at once.
 
 ---
 
